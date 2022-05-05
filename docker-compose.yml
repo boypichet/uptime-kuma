@@ -6,7 +6,7 @@ services:
     image: louislam/uptime-kuma:1.15.1
     container_name: uptime-kuma
     volumes:
-      - /c/Users/boy50.LAPTOP-0BGH43UK/Documents/vscode/uptime-kuma/data:/app/data
+      - /path/uptime-kuma/data:/app/data
     ports:
       - 3001:3001
     restart: unless-stopped
